@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Aqui vem a imagem -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo novamente, Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="formulario.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="iemail"></label>
+                        <input type="email" name="iemail" id="email" placeholder="seu e-mail:" required autocomplete="email">
+                    </p><br>
+                    <p>
+                        <label for="isen"></label>
+                        <input type="password" name="senha" id="isen" placeholder="sua senha:">
+                    </p>
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Esqueci a senha">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
