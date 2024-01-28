@@ -31,7 +31,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: url(../metal.jpg) no-repeat left bottom/ cover;
+    background: url(../imagens/metal.jpg) no-repeat left bottom/ cover;
     height: 200px;
 }
 
