@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 768px) and (max-height: 500px) {
+    section#login {
+        position: relative;
+        top: 0%;left: 33%;
+        transform: none;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, #5F2C82, #4C8F99);
     }
-
+   
     section#login {
-        width: 80vw;
+        width: 80vw;height: 73vh;
     }
 
     section#login > div#imagem {
@@ -27,7 +35,7 @@
     }
 
     section#login {
-        width: 850px;
+        width: 950px;height: 73vh;
     }
 
     section#login > div#imagem {

@@ -7,14 +7,14 @@
 }
 
 body {
-    height: 100vh;width: 100vw;
+    height: 100vh;
     background-color: #5F2C82;
     background-repeat: no-repeat;
 }
 
 main {
     position: relative;
-    height: 100vh;width: 100vw;
+    height: 100vh;width: 97vw;
 }
 
 section#login {
@@ -24,6 +24,7 @@ section#login {
     background-color: white;
     width: 250px;
     height: 500px;
+    max-height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
@@ -35,7 +36,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: url(../imagens/metal.jpg) no-repeat left bottom/ cover;
-    height: 200px;
+    height: 34vh;
 }
 
 section#login > div#formulario {
