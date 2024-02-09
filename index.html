@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -16,17 +17,22 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo novamente, Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
                 <form action="#" method="post" autocomplete="on">
-                    <p>
-                        <label for="iemail"></label>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
                         <input type="email" name="iemail" id="email" placeholder="seu e-mail:" required autocomplete="email">
-                    </p><br>
-                    <p>
+                        <label for="iemail"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isen" placeholder="sua senha:" required="current-password" minlength="8" maxlength="20">
                         <label for="isen"></label>
-                        <input type="password" name="senha" id="isen" placeholder="sua senha:">
-                    </p>
-                    <input type="submit" value="Entrar">
-                    <input type="reset" value="Esqueci a senha">
+                    </div>
+                    <input type="submit" value="Entrar" class="botao">
+                    <a href="esqueci.html" class="esqueci">
+                        Esqueci a senha <span class="material-symbols-outlined">mail</span>
+                    </a>
                 </form>
             </div>
         </section>

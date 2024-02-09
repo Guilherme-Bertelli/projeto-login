@@ -14,7 +14,7 @@ body {
 
 main {
     position: relative;
-    height: 100vh;width: 97vw;
+    height: 98vh;width: 99vw;
 }
 
 section#login {
@@ -36,7 +36,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: url(../imagens/metal.jpg) no-repeat left bottom/ cover;
-    height: 34vh;
+    height: 29vh;
 }
 
 section#login > div#formulario {
@@ -46,4 +46,80 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    text-align: justify;
+    margin-bottom: 7px;
+}
+
+div#formulario form {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+div#formulario div.campo {
+    display: flex;
+    padding: 8px 4px 2px 5px;
+    background-color: #5F2C82;
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+}
+
+div#formulario div.campo {
+    display: flex;
+    padding: 8px 4px 2px 5px;
+    background-color: #5F2C82;
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+}
+
+div#formulario span {
+    margin-right: 5px;
+    color: white;
+}
+
+div#formulario input {
+    border-radius: 5px;
+    border-style: none;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 5px;
+}
+
+div#formulario input.botao {
+    padding: 5px;
+    background-color: #94CFCD;
+    color: rgba(255, 255, 255, 0.936);
+}
+
+div#formulario input.botao:hover {
+    background-color: #94cfcdea;
+    color: white;
+}
+
+div#formulario a.esqueci {
+    display: flex;
+    text-decoration: none;
+    border: 1px solid #94CFCD;
+    border-radius: 5px;
+    padding: 10px;
+    color: #829f9ecf;
+} 
+
+div#formulario a.esqueci:hover {
+    color: #658c8b;
+    background-color: #08c9c30c;
+}
+
+div#formulario a.esqueci span.material-symbols-outlined {
+    display: flex;
+    color: #4da3a0;
+    font-size: 18px;
 }
